@@ -47,3 +47,5 @@ ukol1()
 def ukol2():
     castky =  [1000, 1050, 1080, 1020, 1120, 1160, 1100, 1150, 1230, 1200, 1260, 1230]
 
+    prumerne_zhodnoceni = ((castky[-1] / castky[0])**(1/len(castky)) - 1) * 100
+
